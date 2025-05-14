@@ -72,9 +72,8 @@ public class Parser {
 
     System.out.print("Chaves[ { ");
 
-    if (match(Token.PONTUACAO, Token.AC)) {
-      resultado = comandos() && match(Token.PONTUACAO, Token.FC);
-    } else if (comando()) {
+    if (match(Token.PONTUACAO, Token.AC)) resultado = comandos() && match(Token.PONTUACAO, Token.FC);
+    else if (comando()) {
       resultado = true;
     } else {
       resultado = false;
@@ -211,7 +210,7 @@ public class Parser {
     return resultado;
   }
 
-  // Função match com valor específico
+  // Função match com valor específicoo
   private boolean match(int tipoToken, int valorToken) throws IOException, LexerException {
     boolean resultado;
 
