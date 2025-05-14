@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/DescricaoLinguagem.flex" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/com/Auxiliares/AnalisadorLexico.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/com/Auxiliares/Parser.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/com/Auxiliares/Token.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/com/Principal/TestaAnalisadorLexico.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/com/Principal/TestaParser.java" charset="windows-1252" />
+  </component>
+</project>
